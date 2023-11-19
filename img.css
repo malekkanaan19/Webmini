@@ -1,0 +1,24 @@
+.pictures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.pictures img 
+{
+    width: 400px; 
+    height: 400px; 
+    margin-right: 10px; 
+    display: inline-block;
+    transition: transform 0.3s ease;
+    padding: 8.px;
+
+}
+
+.pictures img:hover {
+    transform: scale(1.2);
+  }
+
+
+
