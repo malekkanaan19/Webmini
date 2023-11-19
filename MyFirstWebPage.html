@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First Web page.</title>
+    <link rel="stylesheet" type="text/css" href="icons.css">
+</head>
+
+<body>
+    <a href="home.php" class="home-button">Home</a>
+    <center>
+        <h1>My First Web Page</h1>
+    </center>
+    <body>
+    <center>
+        <h1>My Gallery</h1>
+    </center>
+
+    <div class="gallery">
+        <div class="thumbnail" onclick="openModal('image1.jpg')">
+            <img src="image1_thumb.jpg" alt="Image 1">
+        </div>
+        <div class="thumbnail" onclick="openModal('image2.jpg')">
+            <img src="image2_thumb.jpg" alt="Image 2">
+        </div>
+        <!-- Add more thumbnails here -->
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+    <h2 style="color: red; text-decoration: underline;">Paragraph using p:</h2>
+    <p>
+        With psychological health and well-being. Again, the authors speculated that FoMO could play an important role in
+        linking individual variability in multiple factors, such as psychological need satisfaction, overall mood, and general
+        life satisfaction, to social media engagement.
+    </p>
+    
+    <p>
+        With psychological health and well-being. Again, the authors speculated that FoMO could play an important role in
+        linking individual variability in multiple factors, such as psychological need satisfaction, overall mood, and general
+        life satisfaction, to social media engagement.
+    </p>
+    <h2 style="color: red; text-decoration: underline;">Bullets and numbered lists:</h2>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+    <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ol>
+    <h2 style="color: red; text-decoration: underline;">Table:</h2>
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Email</td>
+        </tr>
+        <tr>
+            <td>1234</td>
+            <td>malek kanaan</td>
+            <td>malek.kanaan@lau.edu.lb</td>
+        </tr>
+    </table>
+    <h2 style="color: red; text-decoration: underline;">Divs and Spans</h2>
+    <div style="border: 1px solid black">
+        <span>1st span</span>
+        <span>2nd span</span>
+    </div>
+    <a href="https://www.example.com" target="_blank">
+        <img src="image1.jpg" alt="Placeholder Image">
+    </a>
+    <br>
+    <img src="image2.jpg" alt="Placeholder Image">
+    <img src="image3.jpg" alt="Placeholder Image">
+</body>
+
+</html>
