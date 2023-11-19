@@ -1,0 +1,29 @@
+{
+    "images": [
+        {
+           "url": "https://theuselessweb.com/share-image-large.png",
+           "alt": "Image 1"
+         },
+         {
+           "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWCVnMftmnJZ8Nis5HnBeuahDMftylU9guag&usqp=CAU",
+           "alt": "Image 2"
+         },
+         
+         {
+           "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSntl_5RTPa-0L9ghgKOQT8ngX5_1hD9NCFgESOxfz2zrGamiGO7GB2luZkcCkq5vDAPRE&usqp=CAU",
+           "alt": "Image 3"
+         },
+         {
+           "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpd3lKIcyomtsJma5OKE10vL1XesjzhaOU-Q&usqp=CAU",
+           "alt": "Image 4"
+         },
+         {
+           "url": "https://sm.ign.com/ign_nordic/review/l/lost-in-ra/lost-in-random-review_9hhv.jpg",
+           "alt": "Image 5"
+         },
+         {
+           "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSthAmPvODxMz47eRhYen9OLRfF0XJqvJ-ydj-FS2L1xpJ90SgLOqJNd4X46ViVw_U70Iw&usqp=CAU",
+           "alt": "Image 6"
+         }
+       ]
+}
